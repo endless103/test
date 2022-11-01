@@ -6416,7 +6416,40 @@ button, html [type="button"] {
     });
 
 
+    
+$('#search_result_new').each(function () {
+            if ($(this).find('.swiper-slide').length > 1) {
+                var linkKeyword = new Swiper($(this), {
+                    direction: 'horizontal',
+                    slidesPerView: 'auto',
+                    spaceBetween: 6,
+                    observer :true,
+                    observeParents: true,
+                    touchEventsTarget: 'wrapper'
+                });
+            }
+        });
+        $('#tooltip_close_button').on('click', function () {
+            $('#search_filter_tooltip').hide();
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            var $saveEl = $('#btn_save_item');
+            if ($saveEl && $saveEl.length > 0) {
+                var saveNudge = new ConditionSaveNudge();
+                saveNudge.init();
+
+                var ref = $('#ref').val();
+                if (!detailSearch.data.params.has('ref')) {
+                    detailSearch.data.params.append('ref', ref);
+                }
+
+                $saveEl.on('click', function() {
+                    saveNudge.render('?' + detailSearch.data.params.toString());
+                });
+            }
+        });
 
 </script>
+    
 </body>
 </html>
