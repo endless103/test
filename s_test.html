@@ -1,0 +1,1473 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>사람인</title>
+    <meta name="robots" content="NOINDEX">
+    <meta name="writer" content="사람인">
+    <meta name="classification" content="GENERAL">
+    <meta name="revisit" content="1 days">
+    <meta name="distribution" content="GLOBAL">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Language" content="ko-KR">
+    <meta property="og:site_name" content="사람인">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://www.saraminimage.co.kr/logo/saraminsnslogo.png">
+    <link href="//m.saramin.co.kr/sri_css/m_layout.css?v=20220901163205" media="screen" rel="stylesheet" type="text/css">
+    <link href="//m.saramin.co.kr/sri_css/m_pattern.css?v=20220901163205" media="screen" rel="stylesheet" type="text/css">
+    <link href="//m.saramin.co.kr/sri_css/m_search_common.css?v=20220901163205" media="screen" rel="stylesheet" type="text/css">
+    <link href="//m.saramin.co.kr/sri_css/m_sticky.css?v=20220901163205" media="screen" rel="stylesheet" type="text/css">
+    <link href="//www.saraminimage.co.kr/js/libs/swiper_4.4.6/swiper.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="//m.saramin.co.kr/sri_css/m_sub_common.css?v=20220901163205" media="screen" rel="stylesheet" type="text/css">
+    <link href="//m.saramin.co.kr/sri_css/m_category_panel.css?v=20220901163205" media="screen" rel="stylesheet" type="text/css">
+    <link href="//m.saramin.co.kr/sri_css/m_panel_jobs.css?v=20220901163205" media="screen" rel="stylesheet" type="text/css">
+    <link href="//m.saramin.co.kr/sri_css/m_search_panel.css?v=20220901163205" media="screen" rel="stylesheet" type="text/css">
+    <link href="//m.saramin.co.kr/sri_css/m_spec.css?v=20220901163205" media="screen" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//www.saraminimage.co.kr/js/libs/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="//www.saraminimage.co.kr/js/libs/swiper_4.4.6/swiper.min.js"></script>
+    <link href="http://d-code.dev2.saramin.co.kr/template/css/m_patterns.css" media="screen" rel="stylesheet" type="text/css">
+    <!-- WMG-33790 -->
+    <link href="//d-code.dev2.saramin.co.kr/proj/work_kyujin/WMG-33790/sri_css/service/m_total-search.css" media="all" rel="stylesheet" type="text/css">
+</head>
+<body class="service-total-search">
+<!-- [S] 기존영역 -->
+<header id="wrapHeader" class="wrapHeader target_sticky">
+    <a href="/" class="logo"><span class="blind">saramin</span></a>
+    <h1 class="wrap_tit">
+        <button type="button" id="readonlyInput" class="txt_search">디자인</button>
+    </h1>
+    <div class="wrap_header_menu">
+        <button type="button" class="btnSearchDel"><span>검색어 삭제</span></button>
+        <a href="/total-menu" class="btnAllmenu"><span>전체메뉴</span></a>
+    </div>
+</header>
+<!-- [E] -->
+
+<div id="wrapper" class="content">
+    <!-- [S] 기존영역 -->
+    <div class="total_result total_search">
+        <ul class="tabList">
+            <li class="select">
+                <a href="/search?q=%EB%94%94%EC%9E%90%EC%9D%B8&amp;searchword=%EB%94%94%EC%9E%90%EC%9D%B8&amp;searchType=search"
+                   class="inTab"
+                   onmousedown="loggingEventAndTagManager(['Msearch', 'tab', 'total_search', ''], ['ga_lead', 'Msearch', 'tab', 'total_search']);">통합검색</a>
+            </li>
+            <li class="">
+                <a href="" class="inTab">기업정보</a>
+            </li>
+            <li class="">
+                <a href="" class="inTab">커리어팁</a>
+            </li>
+            <li class="">
+                <a href="/my-search/feed?q=%EB%94%94%EC%9E%90%EC%9D%B8&amp;searchword=%EB%94%94%EC%9E%90%EC%9D%B8&amp;searchType=search"
+                   class="inTab"
+                   onmousedown="loggingEventAndTagManager(['Msearch', 'tab', 'my_search', ''], ['ga_lead', 'Msearch', 'tab', 'my_search']);">나의검색
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- [E] -->
+
+    <div class="wrap_search">
+        <!-- [S] 채용정보 -->
+        <div class="search_top">
+            <h2 class="tit">
+                채용정보
+                <span>총 <em id="recruit_total_count">716</em>건</span>
+            </h2>
+            <!-- 기존 셀렉트 -->
+            <select name="sort" class="inpSelTxt2 sizeS">
+                <option value="relation" label="관련도순" selected="selected">관련도순</option>
+                <option value="accuracy" label="정확도순">정확도순</option>
+                <option value="reg_dt" label="등록일순">등록일순</option>
+                <option value="edit_dt" label="수정일순">수정일순</option>
+                <option value="closing_dt" label="마감일순">마감일순</option>
+                <option value="apply_cnt" label="지원자순">지원자순</option>
+                <option value="employ_cnt" label="사원수순">사원수순</option>
+            </select>
+        </div>
+
+        <!-- [S] 기존 필터 -->
+        <div class="filter_area">
+            <div class="search_result_new_box result_sticky_first">
+                <div class="new_box_contents">
+                    <div class="new_box_all">
+                        <div class="result_new_fillter">
+                            <button type="button" class="evtLayerDetailSearchMain "
+                                    onmousedown="try{n_trackEvent('rec_list', 'button', 'rec_search', 'unified');}catch(e){};">
+                            </button>
+                        </div>
+
+                        <div class="swiper-container search_result_new frame swiper-container-horizontal"
+                            id="search_result_new">
+                            <ul class="result_new_list swiper-wrapper">
+                                <li class="swiper-slide swiper-slide-active" style="margin-right: 6px;">
+                                    <button type="button" class="result_new_button  evtLayerDetailSearchArea activeTop ">
+                                        지역
+                                    </button>
+                                </li>
+                                <li class="swiper-slide swiper-slide-next" style="margin-right: 6px;">
+                                    <button type="button" class="result_new_button  evtLayerDetailSearchJob  ">
+                                        직업
+                                    </button>
+                                </li>
+                                <li class="swiper-slide" style="margin-right: 6px;">
+                                    <button type="button" class="result_new_button  evtLayerDetailSearchCareer  ">
+                                        경력
+                                    </button>
+                                </li>
+                                <li class="swiper-slide" style="margin-right: 6px;">
+                                    <button type="button" class="result_new_button  evtLayerDetailSearchSchool  ">
+                                        학력
+                                    </button>
+                                </li>
+                                <li class="swiper-slide" style="margin-right: 6px;">
+                                    <button type="button" class="result_new_button  evtLayerDetailSearchWorkType  ">
+                                        근무형태
+                                    </button>
+                                </li>
+                                <li class="swiper-slide" style="margin-right: 6px;">
+                                    <button type="button"
+                                            class="result_new_button  evtLayerDetailSearchCompanyType  button_em">
+                                        기업형태
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 공고목록 -->
+        <div class="recruitList">
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+        </div>
+
+        <!-- 방금 본 공고와 비슷한 공고 -->
+        <div class="recruit_box similar_box">
+            <h2 class="box_tit">방금 본 공고와 비슷한 공고</h2>
+            <div class="recommend_slide swiper-container-horizontal">
+                <div class="recruitList swiper-wrapper">
+                    <div class="recruit_container card_link swiper-slide">
+                        <a href="" class="card_link">
+                            <div class="card recommend">
+                                <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 채용 (잡매니저매니저)</p>
+                                <span class="corp_name">카카오페이</span>
+                                <div class="meta">
+                                    <span>강남구</span>
+                                    <span>업계연봉상위</span>
+                                </div>
+                                <span class="ai_badge">
+                                    <span class="blind">AI 매칭률</span>
+                                            98%
+                                        </span>
+                                <span class="date">D-7</span>
+                            </div>
+                        </a>
+                        <div class="wrap_scrap_btn">
+                            <input type="checkbox" id="test1" class="scrap_check">
+                            <label for="test1">스크랩</label>
+                        </div>
+                    </div>
+                    <div class="recruit_container card_link swiper-slide">
+                        <a href="" class="card_link">
+                            <div class="card recommend">
+                                <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 채용 (잡매니저매니저)</p>
+                                <span class="corp_name">카카오페이</span>
+                                <div class="meta">
+                                    <span>강남구</span>
+                                    <span>업계연봉상위</span>
+                                </div>
+                                <span class="ai_badge">
+                                    <span class="blind">AI 매칭률</span>
+                                            98%
+                                        </span>
+                                <span class="date">D-7</span>
+                            </div>
+                        </a>
+                        <div class="wrap_scrap_btn">
+                            <input type="checkbox" id="test1" class="scrap_check">
+                            <label for="test1">스크랩</label>
+                        </div>
+                    </div>
+                    <div class="recruit_container card_link swiper-slide">
+                        <a href="" class="card_link">
+                            <div class="card recommend">
+                                <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 채용 (잡매니저매니저)</p>
+                                <span class="corp_name">카카오페이</span>
+                                <div class="meta">
+                                    <span>강남구</span>
+                                    <span>업계연봉상위</span>
+                                </div>
+                                <span class="ai_badge">
+                                    <span class="blind">AI 매칭률</span>
+                                            98%
+                                        </span>
+                                <span class="date">D-7</span>
+                            </div>
+                        </a>
+                        <div class="wrap_scrap_btn">
+                            <input type="checkbox" id="test1" class="scrap_check">
+                            <label for="test1">스크랩</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 공고목록 -->
+        <div class="recruitList">
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+        </div>
+
+        <!-- 키워드 알림받기 -->
+        <div class="recruit_box">
+            <div class="keyword_notice">
+                <h3 class="tit">
+                    <strong>$디자이너$</strong>
+                    키워드 알림받기
+                </h3>
+                <p class="txt">키워드로 새로운 공고가 등록되면 알려드릴께요.</p>
+                <span class="inpSwitch">
+                    <input type="checkbox" id="switch1">
+                    <label class="toggle" for="switch1">
+                        <span class="lbl">알림받기</span>
+                    </label>
+                </span>
+            </div>
+        </div>
+
+        <!-- 공고목록 -->
+        <div class="recruitList">
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+        </div>
+
+        <!-- 어떤 키워드 공고에 관심이 있으세요? -->
+        <div class="recruit_box keyword_box">
+            <h2 class="box_tit">어떤 키워드 공고에 관심이 있으세요?</h2>
+            <div class="keyword_slide swiper-container-horizontal">
+                <div class="swiper-wrapper">
+                    <button type="button" class="card_link swiper-slide">
+                        <div class="keyword">
+                            연봉이 최고의 복지
+                        </div>
+                    </button>
+                    <button type="button" class="card_link swiper-slide">
+                        <div class="keyword active">
+                            연봉 TOP
+                        </div>
+                    </button>
+                    <button type="button" class="card_link swiper-slide">
+                        <div class="keyword">
+                            100명 이상
+                        </div>
+                    </button>
+                    <button type="button" class="card_link swiper-slide">
+                        <div class="keyword">
+                            자유로운 연차
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <div class="recommend_slide swiper-container-horizontal">
+                <div class="recruitList swiper-wrapper">
+                    <div class="recruit_container card_link swiper-slide">
+                        <a href="">
+                            <div class="card">
+                                <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 채용 (잡매니저매니저)</p>
+                                <span class="corp_name">카카오페이</span>
+                                <div class="meta">
+                                    <span>강남구</span>
+                                    <span>업계연봉상위</span>
+                                </div>
+                                <span class="date">D-14</span>
+                            </div>
+                            <div class="wrap_scrap_btn">
+                                <input type="checkbox" id="test1" class="scrap_check">
+                                <label for="test1">스크랩</label>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="recruit_container card_link swiper-slide">
+                        <a href="">
+                            <div class="card">
+                                <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 채용 (잡매니저매니저)</p>
+                                <span class="corp_name">카카오페이</span>
+                                <div class="meta">
+                                    <span>강남구</span>
+                                    <span>업계연봉상위</span>
+                                </div>
+                                <span class="date">D-14</span>
+                            </div>
+                            <div class="wrap_scrap_btn">
+                                <input type="checkbox" id="test1" class="scrap_check">
+                                <label for="test1">스크랩</label>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="recruit_container card_link swiper-slide">
+                        <a href="">
+                            <div class="card">
+                                <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 채용 (잡매니저매니저)</p>
+                                <span class="corp_name">카카오페이</span>
+                                <div class="meta">
+                                    <span>강남구</span>
+                                    <span>업계연봉상위</span>
+                                </div>
+                                <span class="date">D-14</span>
+                            </div>
+                            <div class="wrap_scrap_btn">
+                                <input type="checkbox" id="test1" class="scrap_check">
+                                <label for="test1">스크랩</label>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 공고목록 -->
+        <div class="recruitList">
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+        </div>
+
+        <!-- 많이 검색됐어요! -->
+        <div class="recruit_box most_box">
+            <h2 class="box_tit">
+                <strong>$디자인$</strong>와 함께 많이 검색됐어요!
+            </h2>
+            <!-- 키워드키워드 -->
+            <ul class="search_keyword">
+                <li>
+                    <button type="button">서비스기획</button>
+                </li>
+                <li>
+                    <button type="button">사람인사람인사람인사람</button>
+                </li>
+                <li>
+                    <button type="button">추천 키워드 2</button>
+                </li>
+                <li>
+                    <button type="button">추천 키워드 3</button>
+                </li>
+                <li>
+                    <button type="button">추천 키워드는 총 다섯개</button>
+                </li>
+                <li>
+                    <button type="button">추천 키워드는 총 다섯개</button>
+                </li>
+            </ul>
+            <button type="button" class="keyword_more">
+                <span class="blind">키워드 더보기</span>
+            </button>
+        </div>
+
+        <!-- 공고목록 -->
+        <div class="recruitList">
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+            <div class="recruit_container list_link">
+                <a href="">
+                    <div class="list">
+                        <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 <strong>디자인</strong> 채용 (잡매니저매니저)</p>
+                        <div class="meta">
+                            <span>서울 구로구</span>
+                            <span>재택근무</span>
+                            <span>업계연봉상위</span>
+                            <span>파견</span>
+                        </div>
+                        <div class="corp">
+                            <span class="corp_name">(주)사람인에이치알</span>
+                            <div class="corp_thumb sizeS">
+                                <img src="https://www.saraminimage.co.kr/sri/mobile/layout/menu/bi_txt_common_200831.png" alt="">
+                                <span class="blind">기업이미지</span>
+                            </div>
+                        </div>
+                        <div class="applicant">
+                            <span class="date lastday">오늘 마감</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="wrap_scrap_btn">
+                    <input type="checkbox" id="test1" class="scrap_check">
+                    <label for="test1">스크랩</label>
+                </div>
+                <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+            </div>
+        </div>
+
+        <!-- 최근 검색한 키워드와 연관된 공고 -->
+        <div class="recruit_box recent_box">
+            <h2 class="box_tit">최근 검색한 키워드와 연관된 공고</h2>
+            <div class="recommend_slide swiper-container-horizontal">
+                <div class="recruitList swiper-wrapper">
+                    <div class="recruit_container card_link swiper-slide">
+                        <a href="" class="card_link">
+                            <div class="card recommend">
+                                <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 채용 (잡매니저매니저)</p>
+                                <span class="corp_name">카카오페이</span>
+                                <div class="meta">
+                                    <span>강남구</span>
+                                    <span>업계연봉상위</span>
+                                </div>
+                                <span class="ai_badge">
+                                    <span class="blind">AI 매칭률</span>
+                                            98%
+                                        </span>
+                                <span class="date">D-7</span>
+                            </div>
+                        </a>
+                        <div class="wrap_scrap_btn">
+                            <input type="checkbox" id="test1" class="scrap_check">
+                            <label for="test1">스크랩</label>
+                        </div>
+                    </div>
+                    <div class="recruit_container card_link swiper-slide">
+                        <a href="" class="card_link">
+                            <div class="card recommend">
+                                <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 채용 (잡매니저매니저)</p>
+                                <span class="corp_name">카카오페이</span>
+                                <div class="meta">
+                                    <span>강남구</span>
+                                    <span>업계연봉상위</span>
+                                </div>
+                                <span class="ai_badge">
+                                    <span class="blind">AI 매칭률</span>
+                                            98%
+                                        </span>
+                                <span class="date">D-7</span>
+                            </div>
+                        </a>
+                        <div class="wrap_scrap_btn">
+                            <input type="checkbox" id="test1" class="scrap_check">
+                            <label for="test1">스크랩</label>
+                        </div>
+                    </div>
+                    <div class="recruit_container card_link swiper-slide">
+                        <a href="" class="card_link">
+                            <div class="card recommend">
+                                <p class="tit">[정규직] 파견/아웃소싱 컨설턴트 채용 (잡매니저매니저)</p>
+                                <span class="corp_name">카카오페이</span>
+                                <div class="meta">
+                                    <span>강남구</span>
+                                    <span>업계연봉상위</span>
+                                </div>
+                                <span class="ai_badge">
+                                    <span class="blind">AI 매칭률</span>
+                                            98%
+                                        </span>
+                                <span class="date">D-7</span>
+                            </div>
+                        </a>
+                        <div class="wrap_scrap_btn">
+                            <input type="checkbox" id="test1" class="scrap_check">
+                            <label for="test1">스크랩</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 키워드 채용공고에요! -->
+        <div class="recruit_box ad_box">
+            <h2 class="box_tit">
+                <strong>$디자인$</strong> 채용공고에요!
+            </h2>
+            <button type="button" class="btnType colorWhite sizeXS">광고문의</button>
+            <div class="recruitList">
+                <div class="recruit_container card_link">
+                    <a href="">
+                        <div class="card recruit">
+                            <p class="tit">[전시디자인] <strong>디자인</strong>하늘 공간/그래픽그래픽그래픽</p>
+                            <span class="corp_name">(주)일이삼사오육칠팔구십십일이리리</span>
+                            <div class="applicant">
+                                <div class="meta">
+                                    <span class="date">D-30</span>
+                                    <span>서울 구로구</span>
+                                </div>
+                            </div>
+                            <div class="wrap_scrap_btn">
+                                <input type="checkbox" id="test1" class="scrap_check">
+                                <label for="test1">스크랩</label>
+                            </div>
+                        </div>
+                    </a>
+                    <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+                </div>
+                <div class="recruit_container card_link">
+                    <a href="">
+                        <div class="card recruit">
+                            <p class="tit">[전시디자인] <strong>디자인</strong>하늘 공간/그래픽그래픽그래픽</p>
+                            <span class="corp_name">(주)일이삼사오육칠팔구십십일이리리</span>
+                            <div class="applicant">
+                                <div class="meta">
+                                    <span class="date">D-30</span>
+                                    <span>서울 구로구</span>
+                                </div>
+                            </div>
+                            <div class="wrap_scrap_btn">
+                                <input type="checkbox" id="test1" class="scrap_check">
+                                <label for="test1">스크랩</label>
+                            </div>
+                        </div>
+                    </a>
+                    <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+                </div>
+                <div class="recruit_container card_link">
+                    <a href="">
+                        <div class="card recruit">
+                            <p class="tit">[전시디자인] <strong>디자인</strong>하늘 공간/그래픽그래픽그래픽</p>
+                            <span class="corp_name">(주)일이삼사오육칠팔구십십일이리리</span>
+                            <div class="applicant">
+                                <div class="meta">
+                                    <span class="date">D-30</span>
+                                    <span>서울 구로구</span>
+                                </div>
+                            </div>
+                            <div class="wrap_scrap_btn">
+                                <input type="checkbox" id="test1" class="scrap_check">
+                                <label for="test1">스크랩</label>
+                            </div>
+                        </div>
+                    </a>
+                    <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+                </div>
+                <div class="recruit_container card_link">
+                    <a href="">
+                        <div class="card recruit">
+                            <p class="tit">[전시디자인] <strong>디자인</strong>하늘 공간/그래픽그래픽그래픽</p>
+                            <span class="corp_name">(주)일이삼사오육칠팔구십십일이리리</span>
+                            <div class="applicant">
+                                <div class="meta">
+                                    <span class="date">D-30</span>
+                                    <span>서울 구로구</span>
+                                </div>
+                            </div>
+                            <div class="wrap_scrap_btn">
+                                <input type="checkbox" id="test1" class="scrap_check">
+                                <label for="test1">스크랩</label>
+                            </div>
+                        </div>
+                    </a>
+                    <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+                </div>
+                <div class="recruit_container card_link">
+                    <a href="">
+                        <div class="card recruit">
+                            <p class="tit">[전시디자인] <strong>디자인</strong>하늘 공간/그래픽그래픽그래픽</p>
+                            <span class="corp_name">(주)일이삼사오육칠팔구십십일이리리</span>
+                            <div class="applicant">
+                                <div class="meta">
+                                    <span class="date">D-30</span>
+                                    <span>서울 구로구</span>
+                                </div>
+                            </div>
+                            <div class="wrap_scrap_btn">
+                                <input type="checkbox" id="test1" class="scrap_check">
+                                <label for="test1">스크랩</label>
+                            </div>
+                        </div>
+                    </a>
+                    <button class="sri_btn_sm" title="클릭하면 입사지원할 수 있는 창이 뜹니다."><span class="sri_btn_immediately">입사지원</span></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 파워링크 -->
+        <div class="recruit_box power_box">
+            <div class="power_tit">
+                <h3 class="box_tit">파워링크</h3>
+                <button type="button" class="btnType colorWhite sizeXS">광고문의</button>
+            </div>
+            <a href="" class="power_link">
+                <h4 class="tit">파워링크 타이틀이 들어가는 자리입니다</h4>
+                <p class="txt">파워링크 설명이 적혀 있는 곳 파워링크 설명이 적혀 있는 곳 파워링크 설명이 적혀 있는 곳</p>
+                <span class="link">http://www.website.co.kr</span>
+            </a>
+            <a href="" class="power_link">
+                <h4 class="tit">파워링크 타이틀이 들어가는 자리입니다</h4>
+                <p class="txt">파워링크 설명이 적혀 있는 곳 파워링크 설명이 적혀 있는 곳 파워링크 설명이 적혀 있는 곳</p>
+                <span class="link">http://www.website.co.kr</span>
+            </a>
+        </div>
+
+        <!-- [S] 기존 만족도 조사 -->
+        <div id="search_feed_wrap">
+            <input type="hidden" id="is_login" value="1">
+            <input type="hidden" id="recruitList_count" value="41674">
+            <div id="feedback_score_layer" class="box_feedback step1 show">
+                <div class="inner">
+                    <p class="feed_title">검색결과 만족도 조사</p>
+                    <strong class="txt_feedback">현재 보고 계신 검색 결과에 얼마나 만족하시나요?</strong>
+                    <div class="nps_score">
+                        <ul>
+                            <li>
+                                <button>
+                                    0
+                                    <span>매우 불만족</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button>1</button>
+                            </li>
+                            <li>
+                                <button>2</button>
+                            </li>
+                            <li>
+                                <button>3</button>
+                            </li>
+                            <li>
+                                <button>4</button>
+                            </li>
+                            <li>
+                                <button>5</button>
+                            </li>
+                            <li>
+                                <button>6</button>
+                            </li>
+                            <li>
+                                <button>7</button>
+                            </li>
+                            <li>
+                                <button>8</button>
+                            </li>
+                            <li>
+                                <button>9</button>
+                            </li>
+                            <li>
+                                <button>
+                                    10
+                                    <span>매우 만족</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn_close btnCancel"><span class="blind">닫기</span></button>
+                </div>
+            </div>
+            <div id="feedback_reason_layer" class="box_feedback step2">
+                <div class="inner">
+                    <p class="feed_title">검색결과 만족도 조사 (1/2)</p>
+                    <strong class="txt_feedback"></strong>
+                    <div class="check_feedback">
+                        <span class="inpRdo full last"><input type="radio" id="feedback_status" name="feedback_reason"
+                                                              value="0"><label class="lbl"
+                                                                               for="feedback_status">기타</label></span>
+                        <div class="inpTarea">
+                            <textarea class="scrollbar feedbackContents"
+                                      placeholder="정보 탐색이 더 용이하게 해주세요!, 공고 필터링 기능이 있으면 좋겠어요! 등 자유롭게 사람인에 의견을 들려주세요."
+                                      style="display: none"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="feedback_btn">
+                        <button type="button" class="btnSizeM colorBlue btnReason">다음</button>
+                    </div>
+                </div>
+                <button type="button" class="btn_prev btnPrev">이전</button>
+            </div>
+            <div id="feedback_detail_layer" class="box_feedback step2">
+                <div class="inner">
+                    <p class="feed_title">검색결과 만족도 조사 (2/2)</p>
+                    <strong class="txt_feedback"></strong>
+                    <div class="check_feedback"></div>
+                    <strong class="txt_feedback">추가 의견<em> (선택)</em></strong>
+                    <div class="check_feedback add">
+                        <div class="inpTarea">
+                            <textarea class="scrollbar feedbackContents"
+                                      placeholder="정보 탐색이 더 용이하게 해주세요!, 공고 필터링 기능이 있으면 좋겠어요! 등 자유롭게 사람인에 의견을 들려주세요."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="feedback_btn">
+                        <button type="button" class="btnSizeM colorBlue btnSubmit">제출</button>
+                    </div>
+                </div>
+                <button type="button" class="btn_prev btnPrev">이전</button>
+            </div>
+            <div id="feedback_complete_layer" class="box_feedback step3">
+                <div class="inner">
+                    <img src="//www.saraminimage.co.kr/ui/search/sp/feedback_complete.png">
+                    <p class="txt_complete">참여해주셔서 감사합니다!</p>
+                    <p class="txt_sub">보내주신 소중한 의견은<br>서비스 개선을 위해 활용될 예정입니다.</p>
+                    <button type="button" class="btn_close"><span class="blind">닫기</span></button>
+                </div>
+            </div>
+            <div id="feedback_additional_layer" class="box_feedback step4">
+                <div class="inner">
+                    <p class="feed_title">제출 완료</p>
+                    <p class="txt_complete">어떤 불편한점이 있는지 더 알고싶어요!</p>
+                    <p class="txt_sub">여러분의 의견을 들려주세요! 보내주신 의견은 더 나은 서비스를 위해 소중히 활용되고 있습니다.</p>
+
+                    <div class="feedback_btn half">
+                        <button type="button" class="btnSizeM colorGrayReverse btnClose">종료하기</button>
+                        <button type="button" class="btnSizeM"
+                                onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfqDQngYAWEKl0djWlgrdS3FJi1eOUpfTtp1T5F8HXXvvME0A/viewform');">
+                            참여하기
+                        </button>
+                    </div>
+                    <button type="button" class="btn_close btnClose"><span class="blind">닫기</span></button>
+                </div>
+            </div>
+        </div>
+        <!-- [E] -->
+
+        <!-- 인기검색어 -->
+        <div class="recruit_box popular_box">
+            <h3 class="box_tit">
+                20대 <strong>$디자인$</strong> 인기검색어
+            </h3>
+            <ul class="popular_list">
+                <li>
+                    <p>최대다섯글자자</p>
+                    <span class="date">~03/44</span>
+                </li>
+                <li>
+                    <p>최대다섯글자자</p>
+                    <span class="date">~03/44</span>
+                </li>
+                <li>
+                    <p>최대다섯글자자</p>
+                    <span class="date">~03/44</span>
+                </li>
+                <li>
+                    <p>최대다섯글자자</p>
+                    <span class="date">~03/44</span>
+                </li>
+                <li>
+                    <p>최대다섯글자자</p>
+                    <span class="date">~03/44</span>
+                </li>
+                <li>
+                    <p>최대다섯글자자</p>
+                    <span class="date">~03/44</span>
+                </li>
+                <li>
+                    <p>최대다섯글자자</p>
+                    <span class="date">~03/44</span>
+                </li>
+                <li>
+                    <p>최대다섯글자자</p>
+                    <span class="date">~03/44</span>
+                </li>
+                <li>
+                    <p>최대다섯글자자</p>
+                    <span class="date">~03/44</span>
+                </li>
+                <li>
+                    <p>최대다섯글자자</p>
+                    <span class="date">~03/44</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<!-- 기존푸터 -->
+<div id="footer">
+    <div class="sri_footer">
+        <ul class="footer_link">
+            <li>
+                <a href="/login/logout?url=%2Fsearch%3FsearchType%3Dsearch%26searchword%3D%25EA%25B2%2580%25EC%2583%2589%26q%3D%25EA%25B2%2580%25EC%2583%2589">로그아웃</a>
+            </li>
+            <li><a href="/my-saramin/private-info">내 정보 관리</a></li>
+            <li>
+                <a href="https://www.saramin.co.kr/zf_user/search?nomo=1&amp;searchType=search&amp;searchword=%EA%B2%80%EC%83%89&amp;loc_cd=104040"
+                   target="_blank" class="l2" id="go_footer_pcview" onclick="window.open(this.href); return false">PC
+                    버전</a>
+            </li>
+            <li><a href="/help-word/main">고객센터</a></li>
+            <li>
+                <a href="javascript:openWindowWithApp('/index/app-down','bottom','app-down');">앱 더보기</a>
+            </li>
+        </ul>
+        <p class="footer_custom_tel">
+            <span class="tit">고객센터</span> <a href="tel:02-2025-4733">02-2025-4733</a>
+            <span class="sep">/</span>
+            <a href="/voc/email-inquiry-write">이메일 문의</a>
+            <span class="sep">/</span>
+            <button type="button" class="btn_sitemap" onclick="sitemapLayer()">
+                사이트맵 <span class="toggle_arrow"></span>
+            </button>
+        </p>
+        <div class="sitemap">
+            <div class="depth1">
+                <a href="/recruit-home"
+                   onmousedown="try{loggingTagManager('ga_lead', 'total_menu', 'recruit', '');}catch(e){};">
+                    채용정보 홈 </a>
+                <ul class="depth2">
+                    <li>
+                        <a href="/location-job/domestic">
+                            지역별 </a>
+                    </li>
+                    <li>
+                        <a href="/job-industry/job">
+                            직업별 </a>
+                    </li>
+                    <li>
+                        <a href="/jobs/hot100">
+                            HOT100 </a>
+                    </li>
+                    <li>
+                        <a href="/curation/home">
+                            큐레이션 </a>
+                    </li>
+                    <li>
+                        <a href="/jobs/theme/it-headhunting">
+                            합격ㅋㅋ </a>
+                    </li>
+                    <li>
+                        <a href="https://gig.saramin.co.kr/?utm_source=sri_m&amp;utm_medium=total-menu&amp;utm_campaign=sri_total-menu"
+                           target="_blank">
+                            프리랜서·N잡 </a>
+                    </li>
+                    <li>
+                        <a href="/jobs/theme">
+                            채용관 </a>
+                    </li>
+                    <li>
+                        <a href="/group-job/top1000">
+                            신입·인턴 </a>
+                    </li>
+                    <li>
+                        <a href="/headhunting/head-list">
+                            헤드헌팅 </a>
+                    </li>
+                    <li>
+                        <a href="/outsourcing/list">
+                            파견·대행 </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="depth1">
+                <a href="/my-service?appmode=need_login"
+                   onmousedown="try{loggingTagManager('ga_lead', 'total_menu', 'persons', '');}catch(e){};">
+                    개인MY 홈 </a>
+                <ul class="depth2">
+                    <li>
+                        <a href="/apply/state?local_code=&amp;appmode=need_login">
+                            입사지원 관리 </a>
+                    </li>
+                    <li>
+                        <a href="/resume?appmode=need_login">
+                            이력서 </a>
+                    </li>
+                    <li>
+                        <a href="/scrap-job/list?appmode=need_login">
+                            스크랩 </a>
+                    </li>
+                    <li>
+                        <a href="/avatar/list?local_code=">
+                            추천 공고 </a>
+                    </li>
+                    <li>
+                        <a href="/member/suggest/status-list?appmode=need_login">
+                            이직제안 </a>
+                    </li>
+                    <li>
+                        <a href="/favor-company/list?appmode=need_login">
+                            관심기업 </a>
+                    </li>
+                    <li>
+                        <a href="/lately-job">
+                            최근 본 공고 </a>
+                    </li>
+                    <li>
+                        <a href="/member/profile/person-view?appmode=need_login">
+                            이력서 항목별 관리 </a>
+                    </li>
+                    <li>
+                        <a href="/my-saramin/private-info">
+                            설정 </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="depth1">
+                <a href="/companylab"
+                   onmousedown="try{loggingTagManager('ga_lead', 'total_menu', 'com-lab', '');}catch(e){};">
+                    기업·연봉 홈 </a>
+                <ul class="depth2">
+                    <li>
+                        <a href="/salaries/total-salary/list">
+                            연봉정보 </a>
+                    </li>
+                    <li>
+                        <a href="/company-review">
+                            기업리뷰 </a>
+                    </li>
+                    <li>
+                        <a href="/interview-review">
+                            면접후기 </a>
+                    </li>
+                    <li>
+                        <a href="/career-information/job-interview-list">
+                            현직자 인터뷰 </a>
+                    </li>
+                    <li>
+                        <a href="/company-section/road-map">
+                            이직로드맵 </a>
+                    </li>
+                    <li>
+                        <a href="/white-paper/office">
+                            직장in 생활백서 </a>
+                    </li>
+                    <li>
+                        <a href="/job-fair/schedule">
+                            채용설명회 </a>
+                    </li>
+                    <li>
+                        <a href="/helper-tool/salary-calculator">
+                            취업계산기 </a>
+                        <ul class="depth3">
+                            <li>
+                                <a href="/helper-tool/salary-calculator">
+                                    연봉 계산기</a>
+                            </li>
+                            <li>
+                                <a href="/helper-tool/text-count">
+                                    글자수세기</a>
+                            </li>
+                            <li>
+                                <a href="/helper-tool/grade-converter">
+                                    학점변환기</a>
+                            </li>
+                            <li>
+                                <a href="/helper-tool/gradu">
+                                    졸업/전역연도 계산기</a>
+                            </li>
+                            <li>
+                                <a href="/helper-tool/holi">
+                                    연차휴가 계산기</a>
+                            </li>
+                            <li>
+                                <a href="/helper-tool/retire">
+                                    퇴직금 계산기</a>
+                            </li>
+                            <li>
+                                <a href="/helper-tool/unemp">
+                                    실업급여 계산기</a>
+                            </li>
+                            <li>
+                                <a href="/helper-tool/reverse-salary-calculator">
+                                    실수령액 계산기</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="depth1">
+                <a href="/career-tip"
+                   onmousedown="try{loggingTagManager('ga_lead', 'total_menu', 'careertip', '');}catch(e){};">
+                    커리어팁 </a>
+            </div>
+            <div class="depth1">
+                <a href="/company-review-qst-and-ans"
+                   onmousedown="try{loggingTagManager('ga_lead', 'total_menu', 'qst-and-ans', '');}catch(e){};">
+                    커뮤니티 홈 </a>
+            </div>
+            <div class="depth1">
+                <a href="/help-word/main"
+                   onmousedown="try{loggingTagManager('ga_lead', 'total_menu', 'help_word', '');}catch(e){};">
+                    고객센터 홈 </a>
+                <ul class="depth2">
+                    <li>
+                        <a href="/help-word/main">
+                            도움말 </a>
+                    </li>
+                    <li>
+                        <a href="/live-job">
+                            공지사항 </a>
+                    </li>
+                    <li>
+                        <a href="/live-job/list?category=3">
+                            이벤트 </a>
+                    </li>
+                    <li>
+                        <a href="/voc/my-list">
+                            내 문의 내역 </a>
+                    </li>
+                    <li>
+                        <a href="/voc/email-inquiry-write">
+                            이메일 문의 </a>
+                    </li>
+                    <li class="wrap_btn_sitemap_more">
+                        <a class="btn_sitemap_more" onclick="openMoreMenu()">
+                            <span>메뉴 더보기</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="link_channel">
+            <a href="https://m.saramin.co.kr/company-review-qst-and-ans" target="_blank" title="커뮤니티 바로가기"
+               class="link_cont">커뮤니티</a>
+            <dl>
+                <dt class="blind">사람인 공식채널</dt>
+                <dd><a href="https://m.instagram.com/saramin_official/?hl=ko" target="_blank"
+                       title="사람인 인스타그램 바로가기"><span class="blind">사람인 인스타그램</span></a></dd>
+                <dd><a href="https://m.blog.naver.com/saraminapp" target="_blank" title="사람인 네이버 블로그 바로가기"><span
+                        class="blind">사람인 네이버 블로그</span></a></dd>
+                <dd><a href="https://m.post.naver.com/my.nhn?memberNo=5661329" target="_blank" title="사람인 네이버 포스트 바로가기"><span
+                        class="blind">사람인 네이버 포스트</span></a></dd>
+                <dd><a href="https://m.facebook.com/saramin.dream/" target="_blank" title="사람인 페이스북 바로가기"><span
+                        class="blind">사람인 페이스북</span></a></dd>
+            </dl>
+        </div>
+        <ul class="policy">
+            <li><a href="/index/clause" target="_blank">이용약관</a></li>
+            <li>
+                <a href="/index/clause-privacy" target="_blank" class="/index/clause-privacy">개인정보처리방침</a>
+            </li>
+            <li>
+                <a href="/voc/email-inquiry-write?selected_category=21" target="_blank">상품 문의</a>
+            </li>
+        </ul>
+
+        <dl class="app_install_cont">
+            <dt>모바일 취업의 필수품! <span>사람인 앱</span></dt>
+            <dd class="wrap_install">
+                <button class="btn_ins_and" type="button"
+                        onclick="invStat('4,6,8');document.location='market://details?id=kr.co.saramin.brandapp';"><span
+                        class="btn_icon"></span>안드로이드 설치하기
+                </button>
+                <button class="btn_ins_ios" type="button" onclick="alert('좌측의 안드로이드 설치하기 버튼을 눌러주세요.');"><span
+                        class="btn_icon"></span>아이폰 설치하기
+                </button>
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<link href="//www.saraminimage.co.kr/js/libs/swiper_4.4.6/swiper.min.css" media="screen" rel="stylesheet">
+<script type="text/javascript" src="//www.saraminimage.co.kr/js/libs/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="//www.saraminimage.co.kr/js/libs/swiper_4.4.6/swiper.min.js"></script>
+<style>
+
+</style>
+<script>
+    $(function () {
+        $('.recommend_slide').each(function () {
+            if ($(this).find('.swiper-slide').length > 1) {
+                var linkKeyword = new Swiper($(this), {
+                    slidesPerView: 'auto',
+                    spaceBetween: 16,
+                });
+            }
+        });
+        $('.keyword_slide').each(function () {
+            if ($(this).find('.swiper-slide').length > 1) {
+                var linkKeyword = new Swiper($(this), {
+                    slidesPerView: 'auto',
+                    spaceBetween: 8,
+                });
+            }
+        });
+    });
+    /* 키워드키워드 */
+    /* 3줄 넘어가면 화살표생기고 클릭해서 더보기 가능 */
+    if ($('.search_keyword').height() > 150) {
+        $('.search_keyword').addClass('active');
+        $('.search_keyword+.keyword_more').show();
+    }
+    $('.search_keyword.active+.keyword_more').click(function(){
+        $('.search_keyword').toggleClass('active');
+        $('.search_keyword+.keyword_more').toggleClass('on')
+    });
+
+
+
+</script>
+</body>
+</html>
