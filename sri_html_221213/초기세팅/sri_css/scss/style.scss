@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+$color_green : green;
+$color_blue :  blue;
+
+.test{
+    background-color:$color_green;
+
+    .inner{ 
+        width:50px;
+        height:50px;
+        background-color:$color_blue;
+    }
+}

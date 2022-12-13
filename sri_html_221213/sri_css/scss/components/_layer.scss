@@ -1,0 +1,89 @@
+.dimmed{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.layer{
+    &_bottom_sheet{
+        position: fixed;
+        z-index: 1020;
+        bottom: 0;        
+        width: 100%;
+        height: 95%;
+        max-height: 608px; 
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        background: #fff;
+
+        .layer_contents,
+        .layer_button{
+            @include box-sizing(border-box);
+        }
+        .layer_contents{
+            position: relative;
+            overflow: hidden;
+            overflow-y: scroll;            
+            height: calc(100% - 72px);
+            @include box-sizing(border-box);
+            padding: $space-x5;
+         }
+        .layer_button {
+            @include position($left:0, $bottom:0);
+            width:100%;
+            height:72px;
+            padding: $space-x3 $space-x5;
+
+            [class*="btnType"]{width:100%}
+        }
+
+        // 프로필 등록
+        &.register_profile{
+            max-height:460px;
+
+            .layer_contents{
+                padding-top:280px;
+
+                .tit {
+                    font-size: 24px;
+                    text-align: center;
+            
+                    .txt_point {
+                        color: $text-color-blue;
+                    }
+                }
+            
+                .txt {
+                    display: block;
+                    margin-top: $space-x2;
+                    font-size: 15px;
+                    line-height: 24px;
+                    letter-spacing: -0.5px;
+                    text-align: center;
+                    color:$text-color-gray;
+                }
+
+                &:before{
+                    @include position($top:-10%, $left:-15%);
+                    content:"";
+                    display:block;
+                    width:92.5%;
+                    height:47.2%;
+                    background: #ebfaff;
+                    filter: blur(87px);
+                    -webkit-filter: blur(87px);
+                    @include rotate ($deg : -24.65);                    
+                }
+
+            }            
+        }
+    }    
+}

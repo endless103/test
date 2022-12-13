@@ -1,0 +1,47 @@
+/* color */
+$color-blue: #4876ef;
+$color-navy: #373f57;
+$color-red: #d63131;
+$color-white: #fff;
+$color-gray: #eaedf4;
+
+$button-color-blue: $color-blue;
+$button-color-navy: $color-navy;
+$button-color-gray: $color-gray;
+
+$text-main-color: $color-navy;
+$text-sub-color: #5c667b;
+$text-color-gray: #8491A7;
+$text-color-light-gray: #b4c0d3;
+$text-color-dark-gray: #666;
+// $text-color-dark-gray2: #475067;
+$text-color-black: #222;
+$text-color-dark-black: #000;
+$text-color-blue: $color-blue;
+$text-color-red: $color-red;
+
+$border-color: $color-gray;
+$border-color-blue: $color-blue;
+$border-color-gray: #d7dce5;
+$border-color-navy: $color-navy;
+$border-color-red: $color-red;
+
+$bg-color-light-gray: #f4f6fa;
+
+/* size */
+// $layout-size-small: 40.625vw; //520px; => viewport 1280기준
+// $layout-size-medium: 768px;
+// $layout-size-large: 1280px;
+
+$font-size: 15px;
+$font-size-medium: 16px;
+$font-size-large: 24px;
+
+/* space */
+$space: 4px;
+$space-x2: 8px;
+$space-x3: 12px;
+$space-x5: 20px;
+$space-x6: 24px;
+$space-x8: 32px;
+$space-zero: 0;

@@ -1,0 +1,169 @@
+.cafe_detail_view{    
+    color:$text-main-color;
+    // background-color: $bg-color-light-gray;
+
+    .sect{
+        padding:$space-x5;
+        border-bottom:8px solid $border-color;
+        background-color: $color-white;
+        @include box-sizing(border-box);
+
+        .sect_tit{
+            font-weight: bold;
+            font-size:17px;
+            line-height:24px;     
+            letter-spacing: -0.5px;
+        }
+
+        .sect_cont{margin-top: $space-x5;}
+
+        .qna{            
+            .qna_item{
+                @include clearfix;
+                
+                + .qna_item {
+                    margin-top:12px
+                }
+
+                .question{
+                    float:left;
+                    @include box-sizing(border-box);
+                }
+                .answer{
+                    @include box-sizing(border-box);
+                }
+            }
+        }
+        
+        &.cafe_status{
+            padding: $space-zero;
+            border-bottom:0;
+            
+            .cafe_swiper{
+                position:relative;
+                
+                .tag_status{
+                    @include position($bottom : 12px, $left: 12px);
+                    @include round-inline-box;
+                    @include bg-opacity(#000, 50%);
+                    font-size:11px;
+                    line-height: 12px;
+                    padding: 4px 6px;                    
+                    font-weight: bold;
+                    color: $color-white;
+                    z-index: 5;
+                }
+                .swiper-pagination{
+                    @include position($bottom : 12px, $right: 12px, $left: auto);
+                    @include round-inline-box;
+                    @include bg-opacity(#000, 50%);
+
+                    font-size: 12px;
+                    line-height: 10px;
+                    padding: 6px 12px;
+                    font-weight: bold;
+                    color: $color-white;
+                }
+            }
+        }
+        
+        &.cafe_place{
+            .place_name{
+                font-size:22px;
+                line-height: 30px;
+                letter-spacing:-0.5px;
+                @include ellipsis();
+            }
+            .place_tel{
+                color:$text-color-blue;
+            }
+            .qna {
+                font-size: $font-size;
+                line-height: 18px;
+                letter-spacing: -0.5px;
+                margin-top:$space-x5;
+
+                .question{
+                    position: relative;
+                    width:84px;
+                    padding: 0 8px 0 24px;
+                    @include box-sizing(border-box);
+
+                    .ico{
+                        @include position($top : 2px, $left : 0)
+                    }
+                }
+                .answer{margin-left:84px}
+            }
+        }
+
+        &.cafe_map{
+            .map_tit{                  
+                  font-weight: bold;
+                  line-height: 22px;
+                  letter-spacing:-0.5px;                        
+                  .btn_map_view{
+                    font-size:14px;
+                    line-height:20px;
+                    letter-spacing:-0.5px;
+                    color:$text-sub-color;
+                    margin-left: 8px;
+                  }                  
+            }
+            .btn_addr_copy {       
+                margin-top:8px;         
+                text-align: left;
+                font-size: $font-size;
+                line-height:22px;
+                letter-spacing:-0.5px;
+            }
+            .box_btn{
+                padding: $space-x3 0;
+                @include box-sizing(border-box);
+
+                [class*="btnType"]{width:100%}
+            }
+        }
+
+        &.cafe_notice{
+            .box_recuit{
+                text-align:center;
+                padding:$space-x6;
+                background-color:#eff5ff;
+                margin-bottom: $space-x6;
+                @include box-sizing(border-box);
+
+                .recuit_tit{
+                    display:block;
+                    line-height:26px;
+                    letter-spacing:-0.5px;       
+                    margin-bottom: $space-x3;
+                    word-break:keep-all;
+                }
+            }
+            .btn_accordion{
+                font-weight: bold;
+                font-size: 17px;
+                line-height: 24px;
+                letter-spacing: -0.5px;
+            }
+            .accordion_cont{
+                margin-top:$space-x3;
+            }
+            .list_dot{
+                color: #8491a7;
+                line-height: 20px;
+                letter-spacing: -0.01em;
+                >li{
+                    &:before {
+                        background-color: #b4c0d3;
+                    }
+                }
+            }
+        }
+
+        &:last-child{
+            border-bottom:0
+        }
+    }
+}

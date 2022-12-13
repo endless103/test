@@ -1,0 +1,34 @@
+.btn, [class*="btnType"]{
+    .arrow_right{
+        display:inline-block;
+        margin-left:4px;
+        width:7px;
+        height:12px;
+        background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='12' viewBox='0 0 7 12' fill='none'%3E%3Cpath d='M1 1L6 6L1 11' stroke='%235C667B' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+
+        &.type_white{
+            background-image: url("data:image/svg+xml,%0A%3Csvg width='7' height='12' viewBox='0 0 7 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 6L1 11' stroke='white' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+        }
+    }    
+}
+.btn{
+    @include flexbox($display: inline-flex, $placeItems: center);
+}
+
+.btn_accordion{
+    @include flexbox($display: inline-flex, $placeItems: center);
+    .arrow{
+        display: inline-block;
+        margin-left: 8px;
+        width: 14px;
+        height: 14px;
+        background-image: url("data:image/svg+xml,%0A%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.99984 4.86L1.26315 10.5967L0.603186 9.93671L6.99984 3.54006L13.3965 9.93671L12.7365 10.5967L6.99984 4.86Z' fill='%23CBCBCE'/%3E%3C/svg%3E%0A");
+        @include rotate($deg :0)
+    }
+
+    &.expand {
+        .arrow{
+            @include rotate($deg : -180)
+        }
+    }
+}

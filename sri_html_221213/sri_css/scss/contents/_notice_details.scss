@@ -1,0 +1,37 @@
+.notice_detail_view{    
+    color:$text-main-color;
+
+    .board_detail{
+        .board{
+            &_header {
+                padding: $space-x5;
+                border-bottom: 1px solid $border-color;
+                background-color: $color-white;
+                @include box-sizing(border-box);
+
+                .tit{
+                    font-size:20px;
+                    line-height: 28px;
+                    letter-spacing:-0.5px;
+                    @include ellipsis($lines: 2)
+                }
+                .date{
+                    display:block;
+                    margin-top:$space-x3;
+                    color:$text-sub-color;
+                    font-size:14px;
+                    line-height:24px;
+                    line-height:20px;
+                    letter-spacing:-1px;
+                }
+            }
+            &_content {
+                line-height: 26px;
+                letter-spacing:-0.5px;
+                padding: $space-x5;                    
+                background-color: $color-white;
+                @include box-sizing(border-box);
+            }
+        }
+    }
+}
